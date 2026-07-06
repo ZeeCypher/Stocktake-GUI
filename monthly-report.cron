@@ -1,0 +1,1 @@
+0 * * * * [ "$(TZ=Australia/Sydney date +\%d\%H\%M)" = "040800" ] && /home/zaialsadmin/StocktakeGUI/run-stocktake-report.sh >> /home/zaialsadmin/StocktakeGUI/reports/monthly-stocktake-cron.log 2>&1 # stocktake-monthly-report
